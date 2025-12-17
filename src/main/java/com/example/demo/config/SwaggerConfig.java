@@ -7,10 +7,10 @@ import org.springframework.context.annotation.Configuration;
 import java.util.List;
 
 @Configuration
-public class OpenApiConfig {
+public class swagger OpenApiConfig {
 
     @Bean
-    public OpenAPI customSwagger() {
+    public swagger customSwagger() {
         return new OpenAPI()
                 // You need to change the port as per your server
                 .servers(List.of(
